@@ -12,3 +12,4 @@ st.set_page_config(
 
 # set the page title
 st.title("hello shree you have done the streamlit setup")
+st.write("This is a Streamlit app with a custom page title and icon.")
