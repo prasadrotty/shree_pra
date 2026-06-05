@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 col1,col2,col3=st.columns([1,2,3])
-with col2:
+with col3:
    st.image("shrishail's_sister.jpeg",width=600)
 # Set pahe config
 st.set_page_config(
