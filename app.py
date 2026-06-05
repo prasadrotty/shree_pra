@@ -3,13 +3,6 @@ import pandas as pd
 import numpy as np
 import os
 
-col1,col2=st.columns([1,2])
-with col2:
-   st.image("shrishail's_sister.jpeg",width=300)
-
-with col1:
-   st.image("Prasadi.jpeg",width=4700)
-
 # Set pahe config
 st.set_page_config(
   page_title="Shree's Awesome APP",
@@ -17,6 +10,16 @@ st.set_page_config(
   layout="wide",                 # "centered" or "wide"
   initial_sidebar_state="expanded"
 )
+
+# Sample Images 
+col1,col2=st.columns([1,2])
+with col2:
+   st.image("shrishail's_sister.jpeg",width=300)
+
+with col1:
+   st.image("Prasadi.jpeg",width=4700)
+
+
   
 file_path="healthy_diet_calorie_intake.csv"
 
