@@ -31,5 +31,6 @@ def data_ana(data):
   st.write("🫣 Here we are seeing Persons age is graterthen 20:", df["Age"] > 20)
   return
 
-data_ana(df)  
+age_dat=data_ana(df)  
+age_dat
 
