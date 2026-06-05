@@ -12,15 +12,15 @@ st.set_page_config(
 file_path="healthy_diet_calorie_intake.csv"
 
 if os.path.exists(file_path):
+  
   try:
     df=pd.read_csv("healthy_diet_calorie_intake.csv")
     st.sub_headder("Dataset preview")
     st.dataframe(df)
     st.write("Displaying the Dataset",df.shape)
     st.write("Displaying the Features :", df.columns)
-   except Exception as e:
-    st.error(f"file not found : {e}")
-
+  except Exception as e:
+        st.error(f"Error reading file: {e}")
 else:
   st.info("Plese upload the file")
   
