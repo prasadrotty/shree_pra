@@ -5,7 +5,7 @@ import os
 
 col1,col2=st.columns([1,2])
 with col2:
-   st.image("shrishail's_sister.jpeg",width=700)
+   st.image("shrishail's_sister.jpeg",width=300)
 
 with col1:
    st.image("Prasadi.jpeg",width=4700)
