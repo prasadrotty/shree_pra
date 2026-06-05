@@ -28,7 +28,7 @@ else:
 st.write("Checking the null values", df.isnull().sum())
 
 def data_ana(data):
-  st.write("🫣 Here we are seeing Persons age is graterthen 20:", df["Age"] > 20)
+  st.write("🫣 Here we are seeing Persons age is graterthen 20:", df[df["Age"] >30])
   return
 
 age_dat=data_ana(df)  
