@@ -9,3 +9,6 @@ st.set_page_config(
   layout="wide",                 # "centered" or "wide"
   initial_sidebar_state="expanded"
 )
+
+# set the page title
+st.title("hello shree you have done the streamlit setup")
