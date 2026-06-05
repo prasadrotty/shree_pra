@@ -16,7 +16,7 @@ if os.path.exists(file_path):
   
   try:
     df=pd.read_csv("healthy_diet_calorie_intake.csv")
-    st.sub_headder("Dataset preview")
+    st.subheader("Dataset preview")
     st.dataframe(df)
     st.write("Displaying the Dataset",df.shape)
     st.write("Displaying the Features :", df.columns)
