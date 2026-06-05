@@ -3,8 +3,9 @@ import pandas as pd
 import numpy as np
 import os
 
-
-st.image("shrishail's_sister.jpeg",width=1200)
+col1,col2,col3=st.columns([1,2,3])
+with col2:
+   st.image("shrishail's_sister.jpeg",width=600)
 # Set pahe config
 st.set_page_config(
   page_title="Shree's Awesome APP",
@@ -12,6 +13,7 @@ st.set_page_config(
   layout="wide",                 # "centered" or "wide"
   initial_sidebar_state="expanded"
 )
+  
 file_path="healthy_diet_calorie_intake.csv"
 
 if os.path.exists(file_path):
