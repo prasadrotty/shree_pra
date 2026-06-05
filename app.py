@@ -3,12 +3,12 @@ import pandas as pd
 import numpy as np
 import os
 
-col1,col2,col3=st.columns([1,2,3])
+col1,col2=st.columns([1,2])
 with col2:
    st.image("shrishail's_sister.jpeg",width=700)
 
 with col1:
-   st.image("Prasadi.jpeg",width=700)
+   st.image("Prasadi.jpeg",width=1700)
 
 # Set pahe config
 st.set_page_config(
