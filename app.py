@@ -13,3 +13,7 @@ st.set_page_config(
 # set the page title
 st.title("hello shree you have done the streamlit setup")
 st.write("This is a Streamlit app with a custom page title and icon.")
+
+df= pd.read_csv("healthy_diet_calorie_intake.csv")
+st.subheader("successfully red the dataset!!!")
+st.dataframe(df)
