@@ -25,6 +25,6 @@ if os.path.exists(file_path):
 else:
   st.info("Plese upload the file")
 
-st.write("Checking the null values", df.isnull())
+st.write("Checking the null values", df.isna())
 
 
