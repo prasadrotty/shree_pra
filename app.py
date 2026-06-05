@@ -24,6 +24,7 @@ if os.path.exists(file_path):
         st.error(f"Error reading file: {e}")
 else:
   st.info("Plese upload the file")
-  
+
+st.write("Checking the null values", df.isnull)
 
 
