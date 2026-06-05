@@ -8,7 +8,7 @@ with col2:
    st.image("shrishail's_sister.jpeg",width=700)
 
 with col1:
-   st.image("Prasadi.jpeg",width=2700)
+   st.image("Prasadi.jpeg",width=4700)
 
 # Set pahe config
 st.set_page_config(
