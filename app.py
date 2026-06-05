@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 
-st.image("shrishail's_sister.jpeg",width=200)
+st.image("shrishail's_sister.jpeg",width=1200)
 # Set pahe config
 st.set_page_config(
   page_title="Shree's Awesome APP",
